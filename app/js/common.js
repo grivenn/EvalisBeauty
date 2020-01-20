@@ -8,7 +8,7 @@ $(function() {
 		// 	"theme-dark"
 		//  ]
 		navbar:{
-			title: '<img src="img/logo-1.svg" alt="Салон красоты Смитлер">'
+			title: '<img src="img/logo-light.svg" alt="Салон красоты Смитлер">'
 		},
 		offCanvas: {
 			position: 'right'
@@ -68,10 +68,11 @@ $(function() {
 	}
 	carouselService();
 
-	$('.carousel-services-composition .h3').each(function() {
-		var ths = $(this);
-		ths.html(ths.html().replace(/(\S+)\s*$/, '<span>$1</span>'));
-	});
+	// Делает первое слово крупным кеглем, второе мелким
+	// $('.carousel-services-composition .h3').each(function() {
+	// 	var ths = $(this);
+	// 	ths.html(ths.html().replace(/(\S+)\s*$/, '<span>$1</span>'));
+	// });
 
 	$('section .h2').each(function() {
 		var ths = $(this);
