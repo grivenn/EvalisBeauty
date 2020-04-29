@@ -44,6 +44,7 @@ body
 	opacity: 1
 	// background-color: #fff
 	&.ishome
+		// max-width: 350px
 		.site-header
 			min-height: 700px
 			height: 100vh
@@ -51,7 +52,7 @@ body
 			// height: 978px
 			background-color: $dark
 			.top-line
-				padding-top: 40px
+				padding-top: 20px
 				position: absolute
 				width: 100%
 				z-index: 1
@@ -111,15 +112,11 @@ body
 
 			
 
-.logo
-	img
-		width: 200px
-		height: auto
-		margin-left: 45px
+
 .phone
 	position: absolute
 	right: 85px
-	top: 44px
+	// top: 44px
 	color: #fff
 	font-family: firasans, sans-serif
 	font-size: 22px
@@ -164,7 +161,7 @@ section, header
 .hamburger
 	right: 0
 	position: absolute
-	top: 34px
+	// top: 34px
 	.hamburger-box
 		width: 34px		
 .hamburger-inner, .hamburger-inner::after, .hamburger-inner::before
@@ -180,7 +177,7 @@ section, header
 	.mm-title 
 		padding: 0
 		img
-			width: 128px
+			width: 80px
 			height: auto
 			margin: 10px 0 35px
 
@@ -188,9 +185,12 @@ section, header
 html.mm-opened
 	overflow-y: scroll
 .mm-panels > .mm-panel.mm-hasnavbar
+	// padding-top: 20px
 	right: -18px
 .mm-listview>li:not(.mm-divider):after
 	display: none
+.mm-menu
+	// max-width: 350px !important
 .mm-menu.mm-theme-black .mm-listview>li.mm-selected>a:not(.mm-next), .mm-menu.mm-theme-black .mm-listview>li.mm-selected>span
 	background-color: transparent
 	color: $accent
@@ -233,7 +233,7 @@ html.mm-opened
 	align-items: center
 	height: 100%
 	position: relative
-	top: 0
+	top: -50px
 	color: #fff
 .flex-center
 	margin: 0 auto
@@ -244,7 +244,13 @@ html.mm-opened
 		margin-top: 40px
 	.button
 		margin-top: 25px
-
+	.logo
+		img
+			width: 120px
+			height: auto
+			margin:
+				left: 45px
+				bottom: 50px
 	.welcome
 		p
 			font-size: 13px
@@ -322,6 +328,14 @@ html.mm-opened
 	width: 100%
 	background-color: rgba(#151515, 0.15)
 	color: #fff
+	// vertical-align: middle
+	
+	.wraper
+		display: flex
+		justify-content: space-between
+		.text
+			margin: auto			
+			text-align: center
 	.fa
 		margin-right: 15px
 		color: #555	
@@ -342,7 +356,7 @@ $colors: $blue, $red, $accent, $green, $yellow
 	background-color: $dark
 	&-item
 		color: #fff
-		font-size: 18px
+		font-size: 16px
 		font-weight: 300
 		position: relative
 		display: flex
@@ -353,7 +367,7 @@ $colors: $blue, $red, $accent, $green, $yellow
 				opacity: 1
 		.carousel-logo
 			img
-				width: 100px
+				width: 50px
 				height: auto
 				display: inline-block
 				margin-bottom: 20px
@@ -371,7 +385,7 @@ $colors: $blue, $red, $accent, $green, $yellow
 	&-content
 		// display: flex
 		position: relative
-		padding: 60px 10% 
+		padding: 60px 5% 
 	&-composition
 		margin: auto
 		width: 100%
@@ -672,9 +686,11 @@ select
 .logo-footer
 	width: 125px
 	height: auto
+	margin-bottom: 10px
 	+ p
 		color: #666
 		padding: 0
+		line-height: 20px
 		margin:
 			bottom: 15px
 			top: 15px

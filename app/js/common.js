@@ -8,7 +8,7 @@ $(function() {
 		// 	"theme-dark"
 		//  ]
 		navbar:{
-			title: '<img src="img/logo-light.svg" alt="Салон красоты Смитлер">'
+			title: '<img src="img/Beauty_logo-light.svg" alt="Салон красоты Смитлер">'
 		},
 		offCanvas: {
 			position: 'right'
