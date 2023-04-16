@@ -6,7 +6,8 @@
 	<p>Click picture for preview:</p>
 </p>
 <p></p>
-<hr>
+<hr height = "1px">
+<br><br>
 <h4>Based on OptimizedHTML - Start HTML Template</h4>
 
 <p>
