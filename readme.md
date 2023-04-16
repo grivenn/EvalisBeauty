@@ -2,8 +2,8 @@
 
 
 <p>
-	<img src="https://github.com/grivenn/EvalisBeauty/blob/master/app/img/preview.jpg" alt="Site Preview">
 	<img src="https://raw.githubusercontent.com/grivenn/EvalisBeauty/master/app/img/preview.jpg" alt="Site Preview">
+	<p>Click to view: <a href="https://grivenn.github.io/" target="_blank">Site Preview</a></p>
 </p>
 
 <h4>Based on OptimizedHTML - Start HTML Template</h4>
