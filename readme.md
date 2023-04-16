@@ -1,8 +1,12 @@
 <h1>Website of beauty shop on Rhodes</h1>
 
 
+<p>
+	<img src="https://github.com/grivenn/EvalisBeauty/blob/master/app/img/preview.jpg" alt="Site Preview">
+	<img src="https://raw.githubusercontent.com/grivenn/EvalisBeauty/master/app/img/preview.jpg" alt="Site Preview">
+</p>
 
-<h2>Based on OptimizedHTML - Start HTML Template</h2>
+<h4>Based on OptimizedHTML - Start HTML Template</h4>
 
 <p>
 	<img src="https://raw.githubusercontent.com/agragregra/optimizedhtml-start-template/master/app/img/preview.jpg" alt="Start HTML Template">
