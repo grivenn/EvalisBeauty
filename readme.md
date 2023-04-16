@@ -2,7 +2,7 @@
 
 
 <p>
-	<a href="https://grivenn.github.io/"><img src="https://raw.githubusercontent.com/grivenn/EvalisBeauty/master/app/img/preview.jpg" alt="Site Preview"></a>
+	<a href="https://grivenn.github.io/" target="_blank"><img src="https://raw.githubusercontent.com/grivenn/EvalisBeauty/master/app/img/preview.jpg" alt="Site Preview"></a>
 	<p>Click picture for preview:</p>
 </p>
 
